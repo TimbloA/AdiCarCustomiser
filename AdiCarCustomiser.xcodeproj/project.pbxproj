@@ -14,6 +14,8 @@
 		47CE89EB2B59C6CD001A17BF /* AdiCarCustomiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89EA2B59C6CD001A17BF /* AdiCarCustomiserTests.swift */; };
 		47CE89F52B59C6CD001A17BF /* AdiCarCustomiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89F42B59C6CD001A17BF /* AdiCarCustomiserUITests.swift */; };
 		47CE89F72B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89F62B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift */; };
+		47CE8A042B59C6EC001A17BF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE8A032B59C6EC001A17BF /* Car.swift */; };
+		47CE8A052B59C6F0001A17BF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE8A032B59C6EC001A17BF /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		47CE89F02B59C6CD001A17BF /* AdiCarCustomiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdiCarCustomiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CE89F42B59C6CD001A17BF /* AdiCarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiCarCustomiserUITests.swift; sourceTree = "<group>"; };
 		47CE89F62B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiCarCustomiserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47CE8A032B59C6EC001A17BF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				47CE89DB2B59C6CA001A17BF /* ContentView.swift */,
 				47CE89DD2B59C6CC001A17BF /* Assets.xcassets */,
 				47CE89DF2B59C6CC001A17BF /* Preview Content */,
+				47CE8A032B59C6EC001A17BF /* Car.swift */,
 			);
 			path = AdiCarCustomiser;
 			sourceTree = "<group>";
@@ -259,6 +263,7 @@
 			files = (
 				47CE89DC2B59C6CA001A17BF /* ContentView.swift in Sources */,
 				47CE89DA2B59C6CA001A17BF /* AdiCarCustomiserApp.swift in Sources */,
+				47CE8A042B59C6EC001A17BF /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47CE8A052B59C6F0001A17BF /* Car.swift in Sources */,
 				47CE89EB2B59C6CD001A17BF /* AdiCarCustomiserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
