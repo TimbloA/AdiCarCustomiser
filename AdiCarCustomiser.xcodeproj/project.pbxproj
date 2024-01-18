@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CE89DA2B59C6CA001A17BF /* AdiCarCustomiserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89D92B59C6CA001A17BF /* AdiCarCustomiserApp.swift */; };
+		47CE89DC2B59C6CA001A17BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89DB2B59C6CA001A17BF /* ContentView.swift */; };
+		47CE89DE2B59C6CC001A17BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CE89DD2B59C6CC001A17BF /* Assets.xcassets */; };
+		47CE89E12B59C6CC001A17BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CE89E02B59C6CC001A17BF /* Preview Assets.xcassets */; };
+		47CE89EB2B59C6CD001A17BF /* AdiCarCustomiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89EA2B59C6CD001A17BF /* AdiCarCustomiserTests.swift */; };
+		47CE89F52B59C6CD001A17BF /* AdiCarCustomiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89F42B59C6CD001A17BF /* AdiCarCustomiserUITests.swift */; };
+		47CE89F72B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89F62B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47CE89E72B59C6CD001A17BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CE89CE2B59C6CA001A17BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CE89D52B59C6CA001A17BF;
+			remoteInfo = AdiCarCustomiser;
+		};
+		47CE89F12B59C6CD001A17BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CE89CE2B59C6CA001A17BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CE89D52B59C6CA001A17BF;
+			remoteInfo = AdiCarCustomiser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47CE89D62B59C6CA001A17BF /* AdiCarCustomiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdiCarCustomiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CE89D92B59C6CA001A17BF /* AdiCarCustomiserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiCarCustomiserApp.swift; sourceTree = "<group>"; };
+		47CE89DB2B59C6CA001A17BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47CE89DD2B59C6CC001A17BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47CE89E02B59C6CC001A17BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47CE89E62B59C6CD001A17BF /* AdiCarCustomiserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdiCarCustomiserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CE89EA2B59C6CD001A17BF /* AdiCarCustomiserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiCarCustomiserTests.swift; sourceTree = "<group>"; };
+		47CE89F02B59C6CD001A17BF /* AdiCarCustomiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdiCarCustomiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CE89F42B59C6CD001A17BF /* AdiCarCustomiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiCarCustomiserUITests.swift; sourceTree = "<group>"; };
+		47CE89F62B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiCarCustomiserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CE89D32B59C6CA001A17BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CE89E32B59C6CD001A17BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CE89ED2B59C6CD001A17BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CE89CD2B59C6CA001A17BF = {
+			isa = PBXGroup;
+			children = (
+				47CE89D82B59C6CA001A17BF /* AdiCarCustomiser */,
+				47CE89E92B59C6CD001A17BF /* AdiCarCustomiserTests */,
+				47CE89F32B59C6CD001A17BF /* AdiCarCustomiserUITests */,
+				47CE89D72B59C6CA001A17BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47CE89D72B59C6CA001A17BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CE89D62B59C6CA001A17BF /* AdiCarCustomiser.app */,
+				47CE89E62B59C6CD001A17BF /* AdiCarCustomiserTests.xctest */,
+				47CE89F02B59C6CD001A17BF /* AdiCarCustomiserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CE89D82B59C6CA001A17BF /* AdiCarCustomiser */ = {
+			isa = PBXGroup;
+			children = (
+				47CE89D92B59C6CA001A17BF /* AdiCarCustomiserApp.swift */,
+				47CE89DB2B59C6CA001A17BF /* ContentView.swift */,
+				47CE89DD2B59C6CC001A17BF /* Assets.xcassets */,
+				47CE89DF2B59C6CC001A17BF /* Preview Content */,
+			);
+			path = AdiCarCustomiser;
+			sourceTree = "<group>";
+		};
+		47CE89DF2B59C6CC001A17BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47CE89E02B59C6CC001A17BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47CE89E92B59C6CD001A17BF /* AdiCarCustomiserTests */ = {
+			isa = PBXGroup;
+			children = (
+				47CE89EA2B59C6CD001A17BF /* AdiCarCustomiserTests.swift */,
+			);
+			path = AdiCarCustomiserTests;
+			sourceTree = "<group>";
+		};
+		47CE89F32B59C6CD001A17BF /* AdiCarCustomiserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47CE89F42B59C6CD001A17BF /* AdiCarCustomiserUITests.swift */,
+				47CE89F62B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift */,
+			);
+			path = AdiCarCustomiserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47CE89D52B59C6CA001A17BF /* AdiCarCustomiser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CE89FA2B59C6CD001A17BF /* Build configuration list for PBXNativeTarget "AdiCarCustomiser" */;
+			buildPhases = (
+				47CE89D22B59C6CA001A17BF /* Sources */,
+				47CE89D32B59C6CA001A17BF /* Frameworks */,
+				47CE89D42B59C6CA001A17BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdiCarCustomiser;
+			productName = AdiCarCustomiser;
+			productReference = 47CE89D62B59C6CA001A17BF /* AdiCarCustomiser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47CE89E52B59C6CD001A17BF /* AdiCarCustomiserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CE89FD2B59C6CD001A17BF /* Build configuration list for PBXNativeTarget "AdiCarCustomiserTests" */;
+			buildPhases = (
+				47CE89E22B59C6CD001A17BF /* Sources */,
+				47CE89E32B59C6CD001A17BF /* Frameworks */,
+				47CE89E42B59C6CD001A17BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47CE89E82B59C6CD001A17BF /* PBXTargetDependency */,
+			);
+			name = AdiCarCustomiserTests;
+			productName = AdiCarCustomiserTests;
+			productReference = 47CE89E62B59C6CD001A17BF /* AdiCarCustomiserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47CE89EF2B59C6CD001A17BF /* AdiCarCustomiserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CE8A002B59C6CD001A17BF /* Build configuration list for PBXNativeTarget "AdiCarCustomiserUITests" */;
+			buildPhases = (
+				47CE89EC2B59C6CD001A17BF /* Sources */,
+				47CE89ED2B59C6CD001A17BF /* Frameworks */,
+				47CE89EE2B59C6CD001A17BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47CE89F22B59C6CD001A17BF /* PBXTargetDependency */,
+			);
+			name = AdiCarCustomiserUITests;
+			productName = AdiCarCustomiserUITests;
+			productReference = 47CE89F02B59C6CD001A17BF /* AdiCarCustomiserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CE89CE2B59C6CA001A17BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					47CE89D52B59C6CA001A17BF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					47CE89E52B59C6CD001A17BF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 47CE89D52B59C6CA001A17BF;
+					};
+					47CE89EF2B59C6CD001A17BF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 47CE89D52B59C6CA001A17BF;
+					};
+				};
+			};
+			buildConfigurationList = 47CE89D12B59C6CA001A17BF /* Build configuration list for PBXProject "AdiCarCustomiser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47CE89CD2B59C6CA001A17BF;
+			productRefGroup = 47CE89D72B59C6CA001A17BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CE89D52B59C6CA001A17BF /* AdiCarCustomiser */,
+				47CE89E52B59C6CD001A17BF /* AdiCarCustomiserTests */,
+				47CE89EF2B59C6CD001A17BF /* AdiCarCustomiserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47CE89D42B59C6CA001A17BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CE89E12B59C6CC001A17BF /* Preview Assets.xcassets in Resources */,
+				47CE89DE2B59C6CC001A17BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CE89E42B59C6CD001A17BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CE89EE2B59C6CD001A17BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CE89D22B59C6CA001A17BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CE89DC2B59C6CA001A17BF /* ContentView.swift in Sources */,
+				47CE89DA2B59C6CA001A17BF /* AdiCarCustomiserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CE89E22B59C6CD001A17BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CE89EB2B59C6CD001A17BF /* AdiCarCustomiserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CE89EC2B59C6CD001A17BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CE89F72B59C6CD001A17BF /* AdiCarCustomiserUITestsLaunchTests.swift in Sources */,
+				47CE89F52B59C6CD001A17BF /* AdiCarCustomiserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47CE89E82B59C6CD001A17BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47CE89D52B59C6CA001A17BF /* AdiCarCustomiser */;
+			targetProxy = 47CE89E72B59C6CD001A17BF /* PBXContainerItemProxy */;
+		};
+		47CE89F22B59C6CD001A17BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47CE89D52B59C6CA001A17BF /* AdiCarCustomiser */;
+			targetProxy = 47CE89F12B59C6CD001A17BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47CE89F82B59C6CD001A17BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47CE89F92B59C6CD001A17BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47CE89FB2B59C6CD001A17BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdiCarCustomiser/Preview Content\"";
+				DEVELOPMENT_TEAM = 89VV3248FH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimbloAdi.AdiCarCustomiser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47CE89FC2B59C6CD001A17BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdiCarCustomiser/Preview Content\"";
+				DEVELOPMENT_TEAM = 89VV3248FH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimbloAdi.AdiCarCustomiser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47CE89FE2B59C6CD001A17BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89VV3248FH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimbloAdi.AdiCarCustomiserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdiCarCustomiser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdiCarCustomiser";
+			};
+			name = Debug;
+		};
+		47CE89FF2B59C6CD001A17BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89VV3248FH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimbloAdi.AdiCarCustomiserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdiCarCustomiser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdiCarCustomiser";
+			};
+			name = Release;
+		};
+		47CE8A012B59C6CD001A17BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89VV3248FH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimbloAdi.AdiCarCustomiserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdiCarCustomiser;
+			};
+			name = Debug;
+		};
+		47CE8A022B59C6CD001A17BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89VV3248FH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimbloAdi.AdiCarCustomiserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdiCarCustomiser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CE89D12B59C6CA001A17BF /* Build configuration list for PBXProject "AdiCarCustomiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CE89F82B59C6CD001A17BF /* Debug */,
+				47CE89F92B59C6CD001A17BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CE89FA2B59C6CD001A17BF /* Build configuration list for PBXNativeTarget "AdiCarCustomiser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CE89FB2B59C6CD001A17BF /* Debug */,
+				47CE89FC2B59C6CD001A17BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CE89FD2B59C6CD001A17BF /* Build configuration list for PBXNativeTarget "AdiCarCustomiserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CE89FE2B59C6CD001A17BF /* Debug */,
+				47CE89FF2B59C6CD001A17BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CE8A002B59C6CD001A17BF /* Build configuration list for PBXNativeTarget "AdiCarCustomiserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CE8A012B59C6CD001A17BF /* Debug */,
+				47CE8A022B59C6CD001A17BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CE89CE2B59C6CA001A17BF /* Project object */;
+}
