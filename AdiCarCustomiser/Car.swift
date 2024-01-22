@@ -18,11 +18,11 @@ struct Car {
     func displayStats() -> String {
         var output: String
         output = """
-                    Car Make: \(make)
-                    Model: \(model)
-                    Top Speed: \(topSpeed)mph
-                    Acceleration (0-60): \(acceleration)s
-                    Handling: \(handling)
+                Car Make: \(make)
+                Model: \(model)
+                Top Speed: \(topSpeed)mph
+                Acceleration (0-60): \(acceleration)s
+                Handling: \(handling)
                 """
         return output
     }

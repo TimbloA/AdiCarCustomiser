@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473832D62B5F1368005D4905 /* StarterCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473832D52B5F1368005D4905 /* StarterCars.swift */; };
 		47CE89DA2B59C6CA001A17BF /* AdiCarCustomiserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89D92B59C6CA001A17BF /* AdiCarCustomiserApp.swift */; };
 		47CE89DC2B59C6CA001A17BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CE89DB2B59C6CA001A17BF /* ContentView.swift */; };
 		47CE89DE2B59C6CC001A17BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CE89DD2B59C6CC001A17BF /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		473832D52B5F1368005D4905 /* StarterCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterCars.swift; sourceTree = "<group>"; };
 		47CE89D62B59C6CA001A17BF /* AdiCarCustomiser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdiCarCustomiser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CE89D92B59C6CA001A17BF /* AdiCarCustomiserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdiCarCustomiserApp.swift; sourceTree = "<group>"; };
 		47CE89DB2B59C6CA001A17BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				47CE89DD2B59C6CC001A17BF /* Assets.xcassets */,
 				47CE89DF2B59C6CC001A17BF /* Preview Content */,
 				47CE8A032B59C6EC001A17BF /* Car.swift */,
+				473832D52B5F1368005D4905 /* StarterCars.swift */,
 			);
 			path = AdiCarCustomiser;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				47CE89DC2B59C6CA001A17BF /* ContentView.swift in Sources */,
 				47CE89DA2B59C6CA001A17BF /* AdiCarCustomiserApp.swift in Sources */,
+				473832D62B5F1368005D4905 /* StarterCars.swift in Sources */,
 				47CE8A042B59C6EC001A17BF /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
