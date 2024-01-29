@@ -26,11 +26,16 @@ final class AdiCarCustomiserUITests: XCTestCase {
         // arrange
         let app = XCUIApplication()
         app.launch()
-    
+        
         //act
-     
+        let tablesQuery = app.tables
+        tablesQuery.switches["Tires Package Cost: $500"].tap()
+        tablesQuery.switches["Exhaust Package Cost: $500"].tap()
+        
+        
         //assert
-    
+        XCTAssertEqual(tablesQuery.switches["Engine Package Cost: $1000"].isEnabled,false)
+        XCTAssertEqual(tablesQuery.switches["Brakes Package Cost: $500"].isEnabled,false)
         
     }
 

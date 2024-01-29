@@ -17,40 +17,34 @@ struct ContentView: View {
     @State private var tiresPackage = false
     @State private var enginePackage = false
     @State private var brakesPackage = false
-    
+    @State private var remainingTime = 30
     @State private var remainingFunds = 1000
     
-    
-    var brakesPackageEnabled: Bool {
-        if remainingFunds - 500 < 0 && brakesPackage == false {
+    var nextCarEnabled: Bool {
+        if remainingTime == 0 {
             return true
-        }else{
+        }else {
             return false
         }
     }
+    
+    var brakesPackageEnabled: Bool {
+        return brakesPackage ? false : remainingFunds >= 500 ? true : false
+      
+    }
     var enginePackageEnabled: Bool {
-        if remainingFunds - 1000 < 0 && enginePackage == false {
-            return true
-        }else{
-            return false
-        }
+        return enginePackage ? false : remainingFunds >= 1000 ? true : false
     }
     
     var exhaustPackageEnabled: Bool {
-        if remainingFunds - 500 < 0 && exhaustPackage == false{
-            return true
-        }else{
-            return false
-        }
+        return exhaustPackage ? false : remainingFunds >= 500 ? true : false
     }
     
     var tiresPackageEnabled: Bool {
-        if remainingFunds - 500 < 0 && tiresPackage == false{
-            return true
-        }else{
-            return false
-        }
+        return tiresPackage ? false : remainingFunds >= 500 ? true : false
     }
+    
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
         var body: some View {
             
@@ -114,6 +108,12 @@ struct ContentView: View {
             )
             
             VStack{
+                Text("Remaining Time: \(remainingTime)")
+                    .onReceive(timer, perform: { _ in
+                        if self.remainingTime > 0 {
+                            self.remainingTime -= 1
+                        }
+                    }).foregroundColor(.red)
                 Form {
                     VStack(alignment: .leading, spacing:20){
                         
@@ -124,7 +124,7 @@ struct ContentView: View {
                                 selectedCar = -1
                             }
                             selectedCar += 1
-                        resetDisplay()})
+                            resetDisplay()}).disabled(nextCarEnabled)
                     }
                     Section {
                         Toggle("Brakes Package Cost: $500", isOn: brakesPackageBinding).disabled(brakesPackageEnabled)
