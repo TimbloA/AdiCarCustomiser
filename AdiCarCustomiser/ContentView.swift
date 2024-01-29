@@ -22,15 +22,14 @@ struct ContentView: View {
     
     
     var brakesPackageEnabled: Bool {
-        if remainingFunds - 500 >= 0 {
-            return false
-        }else{
+        if remainingFunds - 500 < 0 && brakesPackage == false {
             return true
+        }else{
+            return false
         }
     }
-    
     var enginePackageEnabled: Bool {
-        if remainingFunds - 500 < 0 {
+        if remainingFunds - 1000 < 0 && enginePackage == false {
             return true
         }else{
             return false
@@ -38,7 +37,7 @@ struct ContentView: View {
     }
     
     var exhaustPackageEnabled: Bool {
-        if remainingFunds - 500 < 0 {
+        if remainingFunds - 500 < 0 && exhaustPackage == false{
             return true
         }else{
             return false
@@ -46,7 +45,7 @@ struct ContentView: View {
     }
     
     var tiresPackageEnabled: Bool {
-        if remainingFunds - 500 < 0 {
+        if remainingFunds - 500 < 0 && tiresPackage == false{
             return true
         }else{
             return false
