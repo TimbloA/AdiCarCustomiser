@@ -28,14 +28,17 @@ final class AdiCarCustomiserUITests: XCTestCase {
         app.launch()
         
         //act
-        let tablesQuery = app.tables
-        tablesQuery.switches["Tires Package Cost: $500"].tap()
-        tablesQuery.switches["Exhaust Package Cost: $500"].tap()
+        let collectionViewsQuery = XCUIApplication().collectionViews
+        
+        
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Exhaust Package Cost: $500"]/*[[".cells.switches[\"Exhaust Package Cost: $500\"]",".switches[\"Exhaust Package Cost: $500\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].tap()
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Tires Package Cost: $500"]/*[[".cells.switches[\"Tires Package Cost: $500\"]",".switches[\"Tires Package Cost: $500\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].tap()
+        
         
         
         //assert
-        XCTAssertEqual(tablesQuery.switches["Engine Package Cost: $1000"].isEnabled,false)
-        XCTAssertEqual(tablesQuery.switches["Brakes Package Cost: $500"].isEnabled,false)
+        XCTAssertEqual(collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Brakes Package Cost: $500"]/*[[".cells.switches[\"Brakes Package Cost: $500\"]",".switches[\"Brakes Package Cost: $500\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].isEnabled,false)
+        XCTAssertEqual(collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Engine Package Cost: $1000"]/*[[".cells.switches[\"Engine Package Cost: $1000\"]",".switches[\"Engine Package Cost: $1000\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].isEnabled,false)
         
     }
 

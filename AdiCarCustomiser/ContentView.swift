@@ -29,19 +29,19 @@ struct ContentView: View {
     }
     
     var brakesPackageEnabled: Bool {
-        return brakesPackage ? false : remainingFunds >= 500 ? true : false
+        return brakesPackage ? false : remainingFunds < 500 ? true : false
       
     }
     var enginePackageEnabled: Bool {
-        return enginePackage ? false : remainingFunds >= 1000 ? true : false
+        return enginePackage ? false : remainingFunds < 1000 ? true : false
     }
     
     var exhaustPackageEnabled: Bool {
-        return exhaustPackage ? false : remainingFunds >= 500 ? true : false
+        return exhaustPackage ? false : remainingFunds < 500 ? true : false
     }
     
     var tiresPackageEnabled: Bool {
-        return tiresPackage ? false : remainingFunds >= 500 ? true : false
+        return tiresPackage ? false : remainingFunds < 500 ? true : false
     }
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
