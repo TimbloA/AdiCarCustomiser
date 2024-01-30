@@ -31,17 +31,35 @@ final class AdiCarCustomiserUITests: XCTestCase {
         let collectionViewsQuery = XCUIApplication().collectionViews
         
         
-        collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Exhaust Package Cost: $500"]/*[[".cells.switches[\"Exhaust Package Cost: $500\"]",".switches[\"Exhaust Package Cost: $500\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].tap()
-        collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Tires Package Cost: $500"]/*[[".cells.switches[\"Tires Package Cost: $500\"]",".switches[\"Tires Package Cost: $500\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].tap()
-        
-        
+        collectionViewsQuery.switches["Exhaust Package Cost: $500"].switches["0"].tap()
+        collectionViewsQuery.switches["Tires Package Cost: $500"].switches["0"].tap()
+                
+                      
         
         //assert
-        XCTAssertEqual(collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Brakes Package Cost: $500"]/*[[".cells.switches[\"Brakes Package Cost: $500\"]",".switches[\"Brakes Package Cost: $500\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].isEnabled,false)
-        XCTAssertEqual(collectionViewsQuery/*@START_MENU_TOKEN@*/.switches["Engine Package Cost: $1000"]/*[[".cells.switches[\"Engine Package Cost: $1000\"]",".switches[\"Engine Package Cost: $1000\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.switches["0"].isEnabled,false)
+        XCTAssertEqual(collectionViewsQuery.switches["Brakes Package Cost: $500"].switches["0"].isEnabled,false)
+        XCTAssertEqual(collectionViewsQuery.switches["Engine Package Cost: $1000"].switches["0"].isEnabled,false)
         
     }
 
+    
+    func testCheckDisplayResetWhenChangeCar() throws {
+        //arrange
+        let app = XCUIApplication()
+        app.launch()
+        
+        //act
+      
+        app.buttons["Next Car"].tap()
+        let collectionViewsQuery = XCUIApplication().collectionViews
+        
+        //assert
+        XCTAssertEqual(collectionViewsQuery.switches["Brakes Package Cost: $500"].switches["0"].isEnabled,true)
+        XCTAssertEqual(collectionViewsQuery.switches["Engine Package Cost: $1000"].switches["0"].isEnabled,true)
+        XCTAssertEqual(collectionViewsQuery.switches["Brakes Package Cost: $500"].switches["0"].isEnabled,true)
+        XCTAssertEqual(collectionViewsQuery.switches["Engine Package Cost: $1000"].switches["0"].isEnabled,true)
+        
+    }
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.

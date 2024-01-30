@@ -29,19 +29,35 @@ struct ContentView: View {
     }
     
     var brakesPackageEnabled: Bool {
-        return brakesPackage ? false : remainingFunds < 500 ? true : false
+        if remainingTime > 0 {
+            return brakesPackage ? false : remainingFunds < 500 ? true : false
+        }else{
+            return true
+        }
       
     }
     var enginePackageEnabled: Bool {
-        return enginePackage ? false : remainingFunds < 1000 ? true : false
+        if remainingTime > 0 {
+            return enginePackage ? false : remainingFunds < 1000 ? true : false
+        }else{
+            return true
+        }
     }
     
     var exhaustPackageEnabled: Bool {
-        return exhaustPackage ? false : remainingFunds < 500 ? true : false
+        if remainingTime > 0 {
+            return exhaustPackage ? false : remainingFunds < 500 ? true : false
+        }else{
+            return true
+        }
     }
     
     var tiresPackageEnabled: Bool {
-        return tiresPackage ? false : remainingFunds < 500 ? true : false
+        if remainingTime > 0 {
+            return tiresPackage ? false : remainingFunds < 500 ? true : false
+        }else{
+            return true
+        }
     }
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
